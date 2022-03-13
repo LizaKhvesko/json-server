@@ -1,25 +1,18 @@
 {
   "users": [
     {
-      "name": "liza",
-      "email": "sfdgdg@dfd",
-      "children": true,
-      "permissions": false,
-      "id": 1
-    },
-    {
       "name": "anton",
       "email": "sfdgdg@dfd",
-      "children": true,
+      "children": false,
       "permissions": true,
       "id": 2
     },
     {
-      "name": "liza2",
+      "name": "liza",
       "email": "sfdgdg@dfd",
-      "children": false,
+      "children": true,
       "permissions": false,
-      "id": 4
+      "id": 5
     }
   ]
 }

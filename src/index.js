@@ -8,9 +8,9 @@ import { filterUsers } from "./modules/filterUsers";
 import { sortUsers } from "./modules/sortUsers";
 import { searchUsers } from "./modules/searchUsers";
 
-window.userService = new UserService;
+window.userService = new UserService('http://localhost:4545/users');
 
-userService.getUsers().then(data => render(data));
+userService.getUsers().then(data => render(data))
 addUsers();
 removeUsers();
 changePermissions();
